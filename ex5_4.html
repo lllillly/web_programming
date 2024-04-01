@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>애니메이션 응용</title>
+    <style>
+        @keyframes que {
+        from{
+            left: 90%;
+        }to{
+            left: 0px;
+        }
+        }
+        div{
+            width: 100%;
+        }
+
+        #question{
+            position: relative;
+            animation-name: que;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+        }
+
+        img{
+            width: 30px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h3>애니메이션 응용</h3>
+    <hr>
+    <div id="question">
+        <img src="/Users/user/Documents/대학/3-1/웹프로그래밍/실습/트럼프 앞면.png">
+        <span>질문 있습니다.</span>
+    </div>
+</body>
+</html>
