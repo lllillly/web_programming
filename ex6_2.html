@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script 태그에 자바스크립트 작성</title>
+    <script>
+        function over(obj) {
+            obj.src =
+              "/Users/user/Documents/대학/3-1/웹프로그래밍/실습/트럼프 앞면.png";
+          }
+          function out(obj) {
+            obj.src =
+              "/Users/user/Documents/대학/3-1/웹프로그래밍/실습/트럼프 뒷면.png";
+          }
+          
+    </script>
+</head>
+<body>
+    <h3>마우스를 올려 보세요</h3>
+    <hr>
+    <img src="/Users/user/Documents/대학/3-1/웹프로그래밍/실습/트럼프 뒷면.png" alt="이미지"
+        onmouseover="over(this)" onmouseout="out(this)">
+</body>
+</html>
